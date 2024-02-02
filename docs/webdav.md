@@ -1,6 +1,6 @@
 ---
 title: webdav
-tags: #webdav
+tags: [computer]
 ---
 # webdav在windows注册表优化
 从Windows Vista起，微软就禁用了http形式的基本WebDAV验证形式（KB841215），必须使用https连接。我们可以修改注册表……

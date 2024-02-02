@@ -1,6 +1,6 @@
 ---
 title: Bicycle 自行车
-tags: #bicycle #自行车
+tags: [sports] 
 ---
 
 ## 自行车各零件(中英对照)

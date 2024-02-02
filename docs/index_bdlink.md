@@ -7,7 +7,7 @@ computer
 [[fonts]]  
 [[git]]  
 [[HDR_Images]]  
-[[linux]]  
+[[posts/linux]]  
 [[macOS_terminal_proxy]]  
 [[markdown]]  
 [[nginx]]  

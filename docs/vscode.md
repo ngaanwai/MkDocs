@@ -1,6 +1,6 @@
 ---
 title: vscode
-tags: #vscode
+tags: [computer]
 ---
 
 ## Copy external media files into workspace on drop or paste for Markdown

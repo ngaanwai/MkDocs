@@ -1,6 +1,6 @@
 ---
 title: Embedded Gain Maps for Adaptive Display of High Dynamic Range
-tags: #hdr #gain maps #hdr image
+tags: [computer]
 ---
 
 # Video

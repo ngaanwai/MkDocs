@@ -1,6 +1,6 @@
 ---
 title: python
-tags: #python
+tags: [computer]
 ---
 
 ## 安装

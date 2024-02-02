@@ -1,6 +1,6 @@
 ---
 title: nginx
-tags: #nginx
+tags: [computer]
 ---
 
 # 配置文件

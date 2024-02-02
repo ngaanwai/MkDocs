@@ -1,6 +1,6 @@
 ---
 title: Sony镜头资料
-tags: sony
+tags: [photogragh]
 ---
 # 相机
 

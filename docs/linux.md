@@ -1,6 +1,6 @@
 ---
 title: linux常见问题及解决方案
-tags: #linux
+tags: [computer]
 ---
 
 ## ssh

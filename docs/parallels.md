@@ -1,6 +1,6 @@
 ---
 title: Parallels
-tags: #Parallels
+tags: [computer]
 ---
 
 # crack 

@@ -1,7 +1,6 @@
 ---
 title: shell scripting
-tags: #shell
----
+tags: [computer]
 
 ### Bash shell
 

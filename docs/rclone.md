@@ -1,6 +1,6 @@
 ---
 title: rclone
-tags: #rclone #webdav
+tags: [computer]
 ---
 
 ## install

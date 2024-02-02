@@ -1,6 +1,6 @@
 ---
 title: macos终端设置代理
-tags: #macos #terminal #proxy
+tags: [computer]
 ---
 
 

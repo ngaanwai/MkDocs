@@ -1,6 +1,6 @@
 ---
 title: markdown
-tags: #markdown
+tags: [computer]
 ---
 
 # 插件或工具

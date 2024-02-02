@@ -1,6 +1,6 @@
 ---
 title: brewing 咖啡萃取
-tags: #coffee #brewing
+tags: [coffee]
 ---
 ## 手冲
 ### 摘要
@@ -16,7 +16,7 @@ tags: #coffee #brewing
 
 #### 第二步 准备咖啡粉  
 将20g豆子磨成白砂糖颗粒大小
-![pour-over-02](as se/pour-over-02.jpg)
+![pour-over-02](assets/pour-over-02.jpg)
 
 #### 第三步 预热  
 将滤杯放上分享壶，滤纸放入滤杯，用少量热水预热

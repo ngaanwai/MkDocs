@@ -1,6 +1,6 @@
 ---
 title: ffmpeg
-tags: #ffmpeg
+tags: [computer]
 ---
 
 ffmpeg - A complete, cross-platform solution to record, convert and stream audio and video.

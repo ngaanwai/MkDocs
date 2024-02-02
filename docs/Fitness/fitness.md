@@ -1,6 +1,6 @@
 ---
 title: fitness 健身
-tags: #fitness #健身
+tags: [fitness]
 ---
 ## Chest 胸
 ## abs 腹

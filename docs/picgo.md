@@ -1,6 +1,6 @@
 ---
 title: picgo
-tags: #vscode #picgo
+tags: [computer]
 ---
 
 # vscode picgo github jsdelivr 配置
