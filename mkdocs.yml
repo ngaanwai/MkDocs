@@ -28,17 +28,23 @@ theme:
         name: Switch to system preference
 
   features:
-    - navigation.tabs
-    - navigation.sections
+    - content.code.annotate
     - content.code.copy
-    - search.suggest
     - search.highlight
-    - toc.follow
+    - search.share
+    - search.suggest
 
 plugins:
-  - tags:
-      tags_file: tags.md
   - search
+  - roamlinks
 
 extra:
   generator: false
+
+markdown_extensions:
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom

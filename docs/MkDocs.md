@@ -1,24 +1,22 @@
 ---
 title: MkDocs
 tags: [computer]
-date: 20240201
 ---
 
-# MkDocs介绍
+## MkDocs介绍
 MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file. 
 用于给markdown格式的项目文档创建静态网站.
 
-# 项目搭建
-## 在github创建仓库
+## let's do!项目搭建
+### 在github创建仓库
 我这里创建的仓库名为:MkDocs
 
-## 本地
 ### 新建文件夹
 ```
 mkdir Mkdocs
 cd Mkdocs
 ```
-### git
+### 本地仓库
 ```
 echo "# MkDocs" >> README.md
 git init
@@ -28,7 +26,7 @@ git branch -M main
 git remote add origin git@github.com:ngaanwai/MkDocs.git
 git push -u origin main
 ```
-#### 新建`.gitignore`文件忽略除docs、mkdocs.yml、.gitignore、.github之外的所有文件
+新建`.gitignore`文件忽略除docs、mkdocs.yml、.gitignore、.github之外的所有文件
 ```
 vim .gitignore
 ```
@@ -50,17 +48,26 @@ source ~/Documents/mkdocs/bin/activate
 pip install mkdocs-material
 mkdocs new .
 ```
+
+安装插件mermaid2
+```
+pip install mkdocs-mermaid2-plugin
+```
+安装插件roamlink
+```
+pip install mkdocs-roamlinks-plugin
+```
+
 修改mkdocs.yml
 
 ```yaml
 site_name: NgaanWai
 
-copyright: Copyright © 2024 
+copyright: Copyright © 2024
 theme:
   name: material
 
   palette:
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -69,7 +76,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       primary: grey
       toggle:
         icon: material/toggle-switch
@@ -82,24 +89,36 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
-        
+
   features:
-    - navigation.tabs
-    - navigation.sections
+    - content.code.annotate
     - content.code.copy
-    - search.suggest
     - search.highlight
-    - toc.follow
+    - search.share
+    - search.suggest
+
 
 plugins:
-  - tags:
-      tags_file: tags.md
   - search
+  - roamlinks
 
 extra:
   generator: false
+
+markdown_extensions:
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
 ```
-#### 自动部署
+
+
+
+
+### 自动部署
 在mkdocs目录新建`.github/workflows/github_actions.yml`
 ```
 mkdir -p ~/documents/mkdocs/.github/workflows
@@ -134,12 +153,26 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-mermaid2-plugin
+      - run: pip install mkdocs-roamlinks-plugin
       - run: mkdocs gh-deploy --force
 ```
 
-# git push
+### git push
 ```
 git add .
 git commit -m '2nd deploy'
 git push
 ```
+
+
+## see also 相关参考
+### tags 标签页面
+实现tags功能只需要两步:
+1. 在`mkdocs.yml`中添加
+```yml
+plugins:
+  - tags:
+      tags_file: tags.md
+```
+2. 在docs文件夹下新建`tags.md`文件

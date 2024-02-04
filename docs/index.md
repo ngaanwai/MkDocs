@@ -1,9 +1,34 @@
 ---
-template: home.html
-title: Material for MkDocs
-social:
-  cards_layout_options:
-    title: Documentation that simply works
+Title: Home 首页
 ---
 
-Welcome to Material for MkDocs.
+computer
+计算机类  
+[[ffmpeg.md]]  
+[[fonts]]  
+[[git]]  
+[[HDR_Images]]  
+[[linux]]  
+[[macOS_terminal_proxy]]  
+[[markdown]]  
+[[nginx]]  
+[[parallels]]  
+[[picgo]]  
+[[python]]  
+[[rclone]]  
+[[Shell_Scripting]]  
+[[vscode]]  
+[[webdav]]  
+
+coffee
+咖啡  
+[[brewing]]
+
+fitness
+健身  
+[[fitness]]
+
+photogragh
+摄影摄像  
+[[photogragh]]
+[[Sony]]

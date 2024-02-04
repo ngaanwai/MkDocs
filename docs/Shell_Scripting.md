@@ -1,6 +1,7 @@
 ---
 title: shell scripting
 tags: [computer]
+---
 
 ### Bash shell
 

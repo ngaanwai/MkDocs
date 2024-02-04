@@ -1,7 +1,6 @@
 ---
 title: SSH
 tags: [computer]
-date: 20240201
 ---
 
 ## ssh免密登入
