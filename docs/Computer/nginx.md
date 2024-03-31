@@ -3,8 +3,7 @@ title: nginx
 tags: [computer]
 ---
 
-# 配置文件
-
+# Config 配置文件
 配置文件大致结构
 location在nginx配置文件中的位置
 ```json

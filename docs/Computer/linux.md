@@ -1,8 +1,8 @@
 ---
-title: linux常见问题及解决方案
+title: linux
 tags: [computer]
 ---
-
+# linux常见问题及解决方案
 ## ssh
 ### 出现错误
 例如：

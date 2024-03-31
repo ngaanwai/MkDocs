@@ -149,10 +149,16 @@ something is parameter
 The parameter is the name of the data that's being passed in ,The argument is the actual value of the data.
 
 
-## 虚拟环境
+### Virtual Environment 虚拟环境
+新建虚拟环境  
 ```
 python -m venv /path/to/new/virtual/environment
 ```
+激活虚拟环境  
+```
+source /path/to/new/virtual/environment/bin/activate
+```
+
 
 
 # reference

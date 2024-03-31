@@ -1,5 +1,5 @@
 ---
-title: MkDocs
+title: MkDocs 用你的markdown文档生成静态网站
 tags: [computer]
 ---
 
@@ -7,7 +7,7 @@ tags: [computer]
 MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file. 
 用于给markdown格式的项目文档创建静态网站.
 
-## let's do!项目搭建
+## 项目搭建
 ### 在github创建仓库
 我这里创建的仓库名为:MkDocs
 
@@ -49,12 +49,9 @@ pip install mkdocs-material
 mkdocs new .
 ```
 
-安装插件mermaid2
+安装两个额外的插件mermaid2、roamlink
 ```
 pip install mkdocs-mermaid2-plugin
-```
-安装插件roamlink
-```
 pip install mkdocs-roamlinks-plugin
 ```
 
@@ -97,7 +94,6 @@ theme:
     - search.share
     - search.suggest
 
-
 plugins:
   - search
   - roamlinks
@@ -114,9 +110,6 @@ markdown_extensions:
           format: !!python/name:mermaid2.fence_mermaid_custom
 
 ```
-
-
-
 
 ### 自动部署
 在mkdocs目录新建`.github/workflows/github_actions.yml`
